@@ -1,0 +1,5 @@
+# ninja log v5
+1	150	6668398028036337	CMakeFiles/chapter01.dir/main.c.obj	52d1756d18c29584
+150	298	6668398029460437	chapter01.exe	f3441d030576c51b
+2	84	6674029667342846	CMakeFiles/chapter01_matrices.dir/matrices.c.obj	3fe8708270a11f75
+84	216	6674029668608993	chapter01_matrices.exe	5dcc222ba25d491c
