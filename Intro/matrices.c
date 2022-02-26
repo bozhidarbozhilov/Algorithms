@@ -1,13 +1,13 @@
 
 #include <stdio.h>
-const int ROWS = 6;
-const int COLS = 6;
+const int ROWS = 5;
+const int COLS = 5;
 void printMatrix(int matrix[ROWS][COLS]);
 void fillDiagonal();
-void fillSpiral();
+void fillSpiralWhileLoop();
+void fillSpiralForLoop();
 int main() {
-    fillSpiral();
-
+    fillSpiralForLoop();
     return 0;
 }
 
@@ -38,7 +38,7 @@ void fillDiagonal(){
     printMatrix(matrix);
 }
 
-void fillSpiral(){
+void fillSpiralWhileLoop(){
     int matrix[ROWS][COLS];
     int counter = 1;
     int current_row = 0;
@@ -80,6 +80,34 @@ void fillSpiral(){
         }
         start_row++;
         current_row++;
+    }
+    printMatrix(matrix);
+}
+
+void fillSpiralForLoop(){
+    int matrix[ROWS][COLS];
+    int value = 1;
+    int start_col=0;
+    int start_row=0;
+    int end_row=ROWS-1;
+    int end_col=COLS-1;
+    while(value<=ROWS*COLS){
+        for (int i = start_row; i <= end_row; i++) {
+            matrix[i][start_col] = value++;
+        }
+        start_col++;
+        for(int i = start_col; i <= end_col;i++){
+            matrix[end_row][i] = value++;
+        }
+        end_row--;
+        for (int i = end_row; i >= start_row ; i--) {
+            matrix[i][end_col] = value++;
+        }
+        end_col--;
+        for(int i=end_col; i >= start_col; i--){
+            matrix[start_row][i] = value++;
+        }
+        start_row++;
     }
     printMatrix(matrix);
 }

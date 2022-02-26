@@ -1,5 +1,13 @@
 # ninja log v5
 1	150	6668398028036337	CMakeFiles/chapter01.dir/main.c.obj	52d1756d18c29584
 150	298	6668398029460437	chapter01.exe	f3441d030576c51b
-2	84	6674029667342846	CMakeFiles/chapter01_matrices.dir/matrices.c.obj	3fe8708270a11f75
-84	216	6674029668608993	chapter01_matrices.exe	5dcc222ba25d491c
+2	98	6675018016465319	CMakeFiles/chapter01_matrices.dir/matrices.c.obj	bef20290edc51013
+99	237	6675018017784960	chapter01_matrices.exe	5dcc222ba25d491c
+2	197	6675018881447377	CMakeFiles/chapter01_matrices.dir/matrices.c.obj	bef20290edc51013
+197	332	6675018882747023	chapter01_matrices.exe	5dcc222ba25d491c
+3	188	6675887692856396	CMakeFiles/chapter01_matrices.dir/matrices.c.obj	bef20290edc51013
+189	421	6675887695126378	chapter01_matrices.exe	5dcc222ba25d491c
+2	258	6675891274721776	CMakeFiles/chapter01_matrices.dir/matrices.c.obj	bef20290edc51013
+259	414	6675891276311715	chapter01_matrices.exe	5dcc222ba25d491c
+2	103	6675893059673236	CMakeFiles/chapter01_matrices.dir/matrices.c.obj	bef20290edc51013
+103	231	6675893061005820	chapter01_matrices.exe	5dcc222ba25d491c
